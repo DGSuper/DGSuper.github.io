@@ -1,0 +1,15 @@
+Date: 4/9/18
+Time: 3:00 p.m.
+Location: Lab in Eaton
+
+This was the first meeting of Project 4 so there were no tasks assigned to be completed yet.
+
+Discussed: What features we wanted implemented in project 4 (and if there were any changes from what we had previously planned).
+
+
+For next meeting:
+- Divide up tasks
+- Begin thinking about what social media integration we want (which social media sites)
+- Figure out how we will refactor Javascript to have classes
+- Update product backlog for new features.
+- Start on design for how code will be refactored

@@ -1,0 +1,20 @@
+Date: 4/23/18
+Time: 3:00 p.m.
+Location: Lab in Eaton
+
+Previous meeting:
+- Figure out what pages we want Twitter/Facebook APIs on (completed)
+- Begin refactoring Javascript into classes (niner, three board, and bots- all difficulties) (in progress)
+- Begin working on user manual (completed)
+- Fix bootstrap styling issue on dashboard (completed)
+- Begin working on online mode for 3x3 board (in progress)
+- Fix stability issues on 9x9 (in progress)
+
+For next meeting:
+- Refactor code for 3x3 (all difficulties)
+- Create view-ability for online mode games for users (for both 3x3 and 9x9)
+- Allow users to be able to continue their games on online mode
+- Fix inconsistent board sizing issue
+- Code buttons for twitter and Facebook APIs
+- Work on updating charts for use case, state, and class diagrams
+- Figure out what tests we want to include in the test suite

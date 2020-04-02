@@ -1,0 +1,34 @@
+.tableContainer {
+    display: inline-block;
+    margin: 20px auto;
+}
+.tableContainer1 {
+    display: inline-block;
+    margin: 20px auto;
+}
+.tableContainer2 {
+    display: inline-block;
+    margin: 20px auto;
+}
+.board {
+	border: 1px solid black;
+	height: 40px;
+	width: 40px;
+	margin: 0;
+}
+
+.selected {
+	text-align: center;
+}
+
+.XSelect {
+	background-color: rgb(150, 200, 250);
+}
+
+.OSelect {
+	background-color: rgb(250, 180, 150);
+}
+
+.winner {
+	border: 2px solid green;
+}

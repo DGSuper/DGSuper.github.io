@@ -1,0 +1,28 @@
+Twitter Developer API:
+
+The Twitter API was utilized to add a "Tweet" button. This functionality is implemented on all 3x3 and 9x9 boards.
+The HTML markup code was generated using the publish.twitter.com website. This allowed us to customize the pre-populated text in a
+new tweet to make it relevant for Tactics.
+
+Reference URLS:
+https://publish.twitter.com/
+https://dev.twitter.com/web/tweet-button
+
+
+Facebook Developer API:
+
+The Facebook API was utilized to add a "Share" button. The is functionality is implemented on all 3x3 and 9x9 boards.
+The HTML markup code was generated using the Code Configurator on https://developers.facebook.com/docs/plugins/share-button. The code was
+modified to include the link for the Tactics Home Page along with custom pre-populated text.
+
+Reference URLS:
+
+https://developers.facebook.com/docs/plugins/share-button
+
+Documentation:
+
+The documentation was generated through YUIDoc.
+
+Reference URL:
+
+http://yui.github.io/yuidoc/

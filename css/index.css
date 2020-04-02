@@ -1,0 +1,150 @@
+div.container {
+  width: 100%;
+  text-align: center;
+}
+
+.tableContainer {
+    /*display: inline-block;*/
+    margin: auto;
+}
+.tableContainer1 {
+    /*display: inline-block;*/
+    margin: auto;
+}
+.tableContainer2 {
+    /*display: inline-block;*/
+    margin: auto;
+}
+table {
+  border: 3px solid black;
+  margin: 0 auto;
+}
+
+.testBox {
+  border: 1px solid black;
+	height: 80px;
+	width: 80px;
+	margin: 0;
+}
+
+.board {
+	border: 1px solid black;
+	height: 40px;
+	width: 40px;
+	margin: 0;
+}
+.board1 {
+	border: 1px solid black;
+	height: 40px;
+	width: 40px;
+	margin: 0;
+}
+.board2 {
+	border: 1px solid black;
+	height: 40px;
+	width: 40px;
+	margin: 0;
+}
+
+input[type=radio].radio {
+  display: none;
+}
+
+input[type=text].radio {
+  margin: auto;
+  min-width: 400px;
+  width: 30%;
+}
+
+input.radio + td.board{
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+input.radio:checked + div{
+  border:2px solid #f00;
+}
+
+.subtable {
+	display: inline-block;
+	margin: 0;
+  vertical-align: top;
+}
+
+.table-sizer {
+  position: relative;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+div.outter {
+  display: table;
+  padding: 0;
+  margin: 0 auto;
+  /*min-width: 246px;*/
+  border: 3px solid black;
+  /*width: 27.675em;*/
+}
+
+div.outtie {
+  display: inline-block;
+  /*overflow: scroll;*/
+  padding: 0;
+  margin: 0 auto;
+  border: 3px solid black;
+  /*width: 27.675em;*/
+}
+
+.mytr:after {
+  content: ' ';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+
+div.continueContainer {
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+div.challenge {
+  z-index: 2;
+  /*display: inline-block;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;*/
+}
+
+td.miniboard {
+  border: 1px solid black;
+  height: 25px;
+  width: 25px;
+  margin: 0;
+}
+
+div.minisnug {
+  width: 246px;
+}
+
+div.snug {
+  padding: 0px;
+  height: 9em;
+  /*width: 27.25em;*/
+}
+
+.movebox {
+  display: none;
+}
+
+.selected { text-align: center; }
+.grayed { background-color: rgb(100, 100, 100); }
+.winner { border: 2px solid green; }
+
+.XSelect { background-color: rgb(150, 200, 250); }
+.OSelect { background-color: rgb(250, 180, 150); }
+.ASelect { background-color: rgb(225, 140, 225); }
+
+.Xwinner { border: 3px solid rgb(150, 200, 250); }
+.Owinner { border: 3px solid rgb(250, 180, 150); }
+.Awinner { border: 3px solid rgb(225, 140, 225); }

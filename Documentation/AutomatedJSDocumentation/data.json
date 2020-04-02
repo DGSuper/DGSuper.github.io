@@ -1,0 +1,1207 @@
+{
+    "project": {},
+    "files": {
+        "bots/easy/easyNinesBot.js": {
+            "name": "bots/easy/easyNinesBot.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/easy/easyThreesBot.js": {
+            "name": "bots/easy/easyThreesBot.js",
+            "modules": {},
+            "classes": {
+                "easyBot": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/easy/easyThreesBotRules.js": {
+            "name": "bots/easy/easyThreesBotRules.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/easy/nineRulesEasy.js": {
+            "name": "bots/easy/nineRulesEasy.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/hard/hardNinesBot.js": {
+            "name": "bots/hard/hardNinesBot.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/hard/hardThreesBot.js": {
+            "name": "bots/hard/hardThreesBot.js",
+            "modules": {},
+            "classes": {
+                "hardBot": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/hard/hardThreesBotRules.js": {
+            "name": "bots/hard/hardThreesBotRules.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/hard/nineRulesHard.js": {
+            "name": "bots/hard/nineRulesHard.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/medium/mediumNinesBot.js": {
+            "name": "bots/medium/mediumNinesBot.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/medium/mediumThreesBot.js": {
+            "name": "bots/medium/mediumThreesBot.js",
+            "modules": {},
+            "classes": {
+                "mediumBot": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/medium/mediumThreesBotRules.js": {
+            "name": "bots/medium/mediumThreesBotRules.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "bots/medium/nineRulesMedium.js": {
+            "name": "bots/medium/nineRulesMedium.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "js/9by9PageState.js": {
+            "name": "js/9by9PageState.js",
+            "modules": {},
+            "classes": {
+                "ninePageState": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "js/ThreesClass.js": {
+            "name": "js/ThreesClass.js",
+            "modules": {},
+            "classes": {
+                "simpleBoard": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "js/nineByNine.js": {
+            "name": "js/nineByNine.js",
+            "modules": {},
+            "classes": {
+                "ninerBoard": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "js/nineRules.js": {
+            "name": "js/nineRules.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "js/pageState.js": {
+            "name": "js/pageState.js",
+            "modules": {},
+            "classes": {
+                "pageState": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "js/rules.js": {
+            "name": "js/rules.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "easyBot": {
+            "name": "easyBot",
+            "shortname": "easyBot",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "bots/easy/easyThreesBot.js",
+            "line": 1,
+            "description": "This is the class for the easy bot of the 3x3 game.",
+            "is_constructor": 1
+        },
+        "hardBot": {
+            "name": "hardBot",
+            "shortname": "hardBot",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "bots/hard/hardThreesBot.js",
+            "line": 1,
+            "description": "This is the class for the hard bot for the 3x3 game.",
+            "is_constructor": 1
+        },
+        "mediumBot": {
+            "name": "mediumBot",
+            "shortname": "mediumBot",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "bots/medium/mediumThreesBot.js",
+            "line": 1,
+            "description": "This is the class for the medium bot for the 3x3 game.",
+            "is_constructor": 1
+        },
+        "ninePageState": {
+            "name": "ninePageState",
+            "shortname": "ninePageState",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "js/9by9PageState.js",
+            "line": 1,
+            "description": "ninePageState updates the HTML after any moves are performed for the 9x9 boards",
+            "is_constructor": 1
+        },
+        "simpleBoard": {
+            "name": "simpleBoard",
+            "shortname": "simpleBoard",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "js/ThreesClass.js",
+            "line": 1,
+            "description": "Board object",
+            "is_constructor": 1
+        },
+        "ninerBoard": {
+            "name": "ninerBoard",
+            "shortname": "ninerBoard",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "js/nineByNine.js",
+            "line": 1,
+            "description": "ninerBoard is the 9x9 tic tac toe object",
+            "is_constructor": 1
+        },
+        "pageState": {
+            "name": "pageState",
+            "shortname": "pageState",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "js/pageState.js",
+            "line": 1,
+            "description": "Updates HTML page for the 3x3 boards",
+            "is_constructor": 1
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "bots/easy/easyNinesBot.js",
+            "line": 13,
+            "description": "runBot decides what the bot's next move will be depending on the difficulty chosen by the user.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "easyBot"
+        },
+        {
+            "file": "bots/easy/easyNinesBot.js",
+            "line": 44,
+            "description": "randomMove generates a random move for the bot that gets returned to the game.",
+            "itemtype": "method",
+            "name": "randomMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves",
+                "type": "Number"
+            },
+            "class": "easyBot"
+        },
+        {
+            "file": "bots/easy/easyThreesBot.js",
+            "line": 14,
+            "description": "runBot decides what the bot's next move will be depending on the difficulty chosen by the user.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "easyBot"
+        },
+        {
+            "file": "bots/easy/easyThreesBot.js",
+            "line": 28,
+            "description": "randomMove generates a random move for the bot that gets returned to the game.",
+            "itemtype": "method",
+            "name": "randomMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves",
+                "type": "Number"
+            },
+            "class": "easyBot"
+        },
+        {
+            "file": "bots/easy/easyThreesBot.js",
+            "line": 45,
+            "description": "checkWinBot checks to see if the move that the bot will make will win the game",
+            "itemtype": "method",
+            "name": "checkWinBot",
+            "params": [
+                {
+                    "name": "an",
+                    "description": "array of all the tiles",
+                    "type": "Tiles"
+                },
+                {
+                    "name": "a",
+                    "description": "function that goes through an array of all the winning combinations",
+                    "type": "WinComb"
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "easyBot"
+        },
+        {
+            "file": "bots/easy/easyThreesBotRules.js",
+            "line": 1,
+            "description": "addEvents adds the clicker events for all the positions on the 3x3 boards",
+            "itemtype": "method",
+            "name": "addEvents",
+            "return": {
+                "description": "No return; all the events are added"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/easy/nineRulesEasy.js",
+            "line": 1,
+            "description": "Adds the tiles on the web page",
+            "itemtype": "method",
+            "name": "populateHTML",
+            "return": {
+                "description": "No return; all tiles are displayed on the page"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/easy/nineRulesEasy.js",
+            "line": 14,
+            "description": "addEvents adds the clicker events for all the positions on the 9x9 boards",
+            "itemtype": "method",
+            "name": "addEvents",
+            "return": {
+                "description": "No return; all the events are added"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardNinesBot.js",
+            "line": 13,
+            "description": "runBot decides what the bot's next move will be depending on the difficulty chosen by the user.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardNinesBot.js",
+            "line": 44,
+            "description": "Based on the returns of the other bot methods, it will return what the next move is going to be.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "If none of the above conditions are satisified, then the bot will perform a random move wherever it sees an opening position.",
+                "type": "RandomMove"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardNinesBot.js",
+            "line": 72,
+            "description": "randomMove looks for a random move in the board when called",
+            "itemtype": "method",
+            "name": "randomMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves for the random move.",
+                "type": "Number"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardNinesBot.js",
+            "line": 89,
+            "description": "winningMove looks for a winning move in the board when called",
+            "itemtype": "method",
+            "name": "winningMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves if there is a winning move. If there is no winning move, it will return -1.",
+                "type": "Number"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardNinesBot.js",
+            "line": 152,
+            "description": "blockMove looks for a block move that blocks the user from winning when it is called",
+            "itemtype": "method",
+            "name": "blockMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves if there is a block move to be made. Otherwise, it returns -1.",
+                "type": "Number"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardNinesBot.js",
+            "line": 215,
+            "description": "twoTiles searches the board for a move that can be placed where there are two open tiles next to one another",
+            "itemtype": "method",
+            "name": "twoTiles",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves. When there are no possible two tile moves, it returns -1",
+                "type": "Number"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardThreesBot.js",
+            "line": 15,
+            "description": "runBot decides what the bot's next move will be depending on the difficulty chosen by the user.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardThreesBot.js",
+            "line": 29,
+            "description": "randomMove looks for a random move in the board when called",
+            "itemtype": "method",
+            "name": "randomMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves for a random move.",
+                "type": "Number"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardThreesBot.js",
+            "line": 46,
+            "description": "Based on the returns of the other bot methods, it will return what the next move is going to be.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "If none of the above conditions are satisified, then the bot will perform a random move wherever it sees an opening position.",
+                "type": "RandomMove"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardThreesBot.js",
+            "line": 74,
+            "description": "winningMove looks for a winning move in the board when called",
+            "itemtype": "method",
+            "name": "winningMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves if there is a winning move. If there is no winning move, it will return -1.",
+                "type": "Number"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardThreesBot.js",
+            "line": 136,
+            "description": "blockMove looks for a block move that blocks the user from winning when it is called",
+            "itemtype": "method",
+            "name": "blockMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves if there is a block move to be made. Otherwise, it returns -1.",
+                "type": "Number"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardThreesBot.js",
+            "line": 211,
+            "description": "twoTiles searches the board for a move that can be placed where there are two open tiles next to one another",
+            "itemtype": "method",
+            "name": "twoTiles",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves. When there are no possible two tile moves, it returns -1",
+                "type": "Number"
+            },
+            "class": "hardBot"
+        },
+        {
+            "file": "bots/hard/hardThreesBotRules.js",
+            "line": 1,
+            "description": "addEvents adds the clicker events for all the positions on the 3x3 boards",
+            "itemtype": "method",
+            "name": "addEvents",
+            "return": {
+                "description": "No return; all the events are added"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/hard/nineRulesHard.js",
+            "line": 1,
+            "description": "Adds the tiles on the web page",
+            "itemtype": "method",
+            "name": "populateHTML",
+            "return": {
+                "description": "No return; all tiles are displayed on the page"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/hard/nineRulesHard.js",
+            "line": 14,
+            "description": "addEvents adds the clicker events for all the positions on the 9x9 boards",
+            "itemtype": "method",
+            "name": "addEvents",
+            "return": {
+                "description": "No return; all the events are added"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumNinesBot.js",
+            "line": 14,
+            "description": "runBot decides what the bot's next move will be depending on the difficulty chosen by the user.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumNinesBot.js",
+            "line": 45,
+            "description": "Based on the returns of the other bot methods, it will return what the next move is going to be.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "If none of the above conditions are satisified, then the bot will perform a random move wherever it sees an opening position.",
+                "type": "RandomMove"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumNinesBot.js",
+            "line": 81,
+            "description": "randomMove looks for a random move in the board when called",
+            "itemtype": "method",
+            "name": "randomMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves for the random move.",
+                "type": "Number"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumNinesBot.js",
+            "line": 98,
+            "description": "winningMove looks for a winning move in the board when called",
+            "itemtype": "method",
+            "name": "winningMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves if there is a winning move. If there is no winning move, it will return -1.",
+                "type": "Number"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumNinesBot.js",
+            "line": 161,
+            "description": "blockMove looks for a block move that blocks the user from winning when it is called",
+            "itemtype": "method",
+            "name": "blockMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves if there is a block move to be made. Otherwise, it returns -1.",
+                "type": "Number"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumNinesBot.js",
+            "line": 224,
+            "description": "twoTiles searches the board for a move that can be placed where there are two open tiles next to one another",
+            "itemtype": "method",
+            "name": "twoTiles",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves. When there are no possible two tile moves, it returns -1",
+                "type": "Number"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumThreesBot.js",
+            "line": 15,
+            "description": "runBot decides what the bot's next move will be depending on the difficulty chosen by the user.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumThreesBot.js",
+            "line": 29,
+            "description": "randomMove looks for a random move in the board when called",
+            "itemtype": "method",
+            "name": "randomMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves for a random move.",
+                "type": "Number"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumThreesBot.js",
+            "line": 46,
+            "description": "Based on the returns of the other bot methods, it will return what the next move is going to be.",
+            "itemtype": "method",
+            "name": "runBot",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "If none of the above conditions are satisified, then the bot will perform a random move wherever it sees an opening position.",
+                "type": "RandomMove"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumThreesBot.js",
+            "line": 82,
+            "description": "winningMove looks for a winning move in the board when called",
+            "itemtype": "method",
+            "name": "winningMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves if there is a winning move. If there is no winning move, it will return -1.",
+                "type": "Number"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumThreesBot.js",
+            "line": 144,
+            "description": "blockMove looks for a block move that blocks the user from winning when it is called",
+            "itemtype": "method",
+            "name": "blockMove",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves if there is a block move to be made. Otherwise, it returns -1.",
+                "type": "Number"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumThreesBot.js",
+            "line": 219,
+            "description": "twoTiles searches the board for a move that can be placed where there are two open tiles next to one another",
+            "itemtype": "method",
+            "name": "twoTiles",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "Returns an integer that corresponds to a move from the array of valid moves. When there are no possible two tile moves, it returns -1",
+                "type": "Number"
+            },
+            "class": "mediumBot"
+        },
+        {
+            "file": "bots/medium/mediumThreesBotRules.js",
+            "line": 1,
+            "description": "addEvents adds the clicker events for all the positions on the 3x3 boards",
+            "itemtype": "method",
+            "name": "addEvents",
+            "return": {
+                "description": "No return; all the events are added"
+            },
+            "class": "ninePageState"
+        },
+        {
+            "file": "bots/medium/nineRulesMedium.js",
+            "line": 1,
+            "description": "Adds the tiles on the web page",
+            "itemtype": "method",
+            "name": "populateHTML",
+            "return": {
+                "description": "No return; all tiles are displayed on the page"
+            },
+            "class": "ninePageState"
+        },
+        {
+            "file": "bots/medium/nineRulesMedium.js",
+            "line": 14,
+            "description": "addEvents adds the clicker events for all the positions on the 9x9 boards",
+            "itemtype": "method",
+            "name": "addEvents",
+            "return": {
+                "description": "No return; all the events are added"
+            },
+            "class": "ninePageState"
+        },
+        {
+            "file": "js/9by9PageState.js",
+            "line": 14,
+            "description": "Updates the board",
+            "itemtype": "method",
+            "name": "updateBoard",
+            "params": [
+                {
+                    "name": "board",
+                    "description": "Determines if the game is over or not",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "i",
+                    "description": "used an index for the move that will be made (for the tile being used)",
+                    "type": "Number"
+                },
+                {
+                    "name": "selClass",
+                    "description": "Determines the type of move, X or O, and displays it graphically using CSS",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "ninePageState"
+        },
+        {
+            "file": "js/9by9PageState.js",
+            "line": 60,
+            "description": "grayOthers grays any tile not being used.",
+            "itemtype": "method",
+            "name": "grayOthers",
+            "params": [
+                {
+                    "name": "dontGray",
+                    "description": "0-8 of the subtable that does not get grayed.",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "ninePageState"
+        },
+        {
+            "file": "js/9by9PageState.js",
+            "line": 79,
+            "description": "Removed all the grayed tiles",
+            "itemtype": "method",
+            "name": "removeGrayedAll",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "ninePageState"
+        },
+        {
+            "file": "js/9by9PageState.js",
+            "line": 94,
+            "description": "finishGame tells the user who is the winner by coloring the board the color of the winner and pushing an alert at the end.",
+            "itemtype": "method",
+            "name": "finishGame",
+            "params": [
+                {
+                    "name": "X/O/A",
+                    "description": "depending on the winner or A if all the options are exhausted",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "none, an alert is made"
+            },
+            "class": "ninePageState"
+        },
+        {
+            "file": "js/ThreesClass.js",
+            "line": 15,
+            "description": "Updates all the variables based on the move selected by the player",
+            "itemtype": "method",
+            "name": "move",
+            "params": [
+                {
+                    "name": "i",
+                    "description": "used an index for the move that will be made (for the tile being used)",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "simpleBoard"
+        },
+        {
+            "file": "js/ThreesClass.js",
+            "line": 32,
+            "description": "Checks the whole board and sees if someone (or bot) has won",
+            "itemtype": "method",
+            "name": "checkWin",
+            "params": [
+                {
+                    "name": "tiles",
+                    "description": "array of all the tiles",
+                    "type": "Array"
+                },
+                {
+                    "name": "myWins",
+                    "description": "array of all the possible wins",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "simpleBoard"
+        },
+        {
+            "file": "js/nineByNine.js",
+            "line": 23,
+            "description": "Checks if the player's move is valid or not",
+            "itemtype": "method",
+            "name": "move",
+            "params": [
+                {
+                    "name": "i",
+                    "description": "the player's move X or O",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "ninerBoard"
+        },
+        {
+            "file": "js/nineByNine.js",
+            "line": 46,
+            "description": "Checks the status of the 3x3 sub board.",
+            "itemtype": "method",
+            "name": "checkBoardStatus",
+            "params": [
+                {
+                    "name": "tile",
+                    "description": "the number of the tile selected",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "none"
+            },
+            "class": "ninerBoard"
+        },
+        {
+            "file": "js/nineByNine.js",
+            "line": 67,
+            "description": "Checking if a move wins the game",
+            "itemtype": "method",
+            "name": "checkGameWin",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "True if the game has been won, false otherwise",
+                "type": "Boolean"
+            },
+            "class": "ninerBoard"
+        },
+        {
+            "file": "js/nineByNine.js",
+            "line": 95,
+            "description": "updateSubArrays updates whichever sub table has been won by X or O.",
+            "itemtype": "method",
+            "name": "updateSubArrays",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "none; updates the corresponding array depending on the outcome"
+            },
+            "class": "ninerBoard"
+        },
+        {
+            "file": "js/nineByNine.js",
+            "line": 117,
+            "description": "Checks for different methods for no more possible ways to win the game",
+            "itemtype": "method",
+            "name": "specialCases",
+            "params": [
+                {
+                    "name": "none",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "True if there is a special case; false otherwise",
+                "type": "Boolean"
+            },
+            "class": "ninerBoard"
+        },
+        {
+            "file": "js/nineByNine.js",
+            "line": 144,
+            "description": "Checks if there are no more moves left in the 9x9 board",
+            "itemtype": "method",
+            "name": "checkBoardFull",
+            "params": [
+                {
+                    "name": "board",
+                    "description": "object that has the properties of the board",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "True if the board is full; false otherwise",
+                "type": "Boolean"
+            },
+            "class": "ninerBoard"
+        },
+        {
+            "file": "js/nineByNine.js",
+            "line": 162,
+            "description": "Checks if the 3x3 sub board has been won.",
+            "itemtype": "method",
+            "name": "checkSubBoardWin",
+            "params": [
+                {
+                    "name": "subBoardIndex",
+                    "description": "index of the specific sub board",
+                    "type": "Number"
+                },
+                {
+                    "name": "tiles",
+                    "description": "all the tiles in the sub board",
+                    "type": "Array"
+                },
+                {
+                    "name": "possWin",
+                    "description": "array of possible wins",
+                    "type": "Array"
+                },
+                {
+                    "name": "XorO",
+                    "description": "string of the whose turn it is, X or O",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "True if the board has been won; false otherwise",
+                "type": "Boolean"
+            },
+            "class": "ninerBoard"
+        },
+        {
+            "file": "js/nineByNine.js",
+            "line": 182,
+            "description": "Checks if someone has won the game",
+            "itemtype": "method",
+            "name": "checkEntireBoard",
+            "params": [
+                {
+                    "name": "boards",
+                    "description": "array of sub boards",
+                    "type": "Array"
+                },
+                {
+                    "name": "possWin",
+                    "description": "array of possible wins",
+                    "type": "Array"
+                },
+                {
+                    "name": "XorO",
+                    "description": "string of the whose turn it is, X or O",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "True if the board has been won; false otherwise",
+                "type": "Boolean"
+            },
+            "class": "ninerBoard"
+        },
+        {
+            "file": "js/nineRules.js",
+            "line": 2,
+            "description": "Adds the tiles on the web page",
+            "itemtype": "method",
+            "name": "populateHTML",
+            "return": {
+                "description": "No return; all tiles are displayed on the page"
+            },
+            "class": "pageState"
+        },
+        {
+            "file": "js/nineRules.js",
+            "line": 15,
+            "description": "addEvents adds the clicker events for all the positions on the 9x9 boards",
+            "itemtype": "method",
+            "name": "addEvents",
+            "return": {
+                "description": "No return; all the events are added"
+            },
+            "class": "pageState"
+        },
+        {
+            "file": "js/pageState.js",
+            "line": 11,
+            "description": "Updates the HTML based on the changes made in the board object",
+            "itemtype": "method",
+            "name": "updatePage",
+            "params": [
+                {
+                    "name": "board",
+                    "description": "Simple board object",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "none; HTML is updated"
+            },
+            "class": "pageState"
+        },
+        {
+            "file": "js/rules.js",
+            "line": 1,
+            "description": "addEvents adds the clicker events for all the positions on the 9x9 boards",
+            "itemtype": "method",
+            "name": "addEvents",
+            "return": {
+                "description": "No return; all the events are added"
+            },
+            "class": ""
+        }
+    ],
+    "warnings": []
+}

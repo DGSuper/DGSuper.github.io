@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe for LARGE LADS >:O</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/ninerStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body onload="populateHTML();populateHTMLM();populateHTMLH();">
+		<div class="container">
+			<h1><u>9 X 9 Test</u></h1>
+			<div class="tableContainer">
+				<h2><u>Easy</u></h2>
+				<table id="outter" cellspacing="0">
+					<tr>
+						<th><table class="subtable 0" cellspacing="0"></table></th>
+						<th><table class="subtable 1" cellspacing="0"></table></th>
+						<th><table class="subtable 2" cellspacing="0"></table></th>
+					</tr>
+					<tr>
+						<th><table class="subtable 3" cellspacing="0"></table></th>
+						<th><table class="subtable 4" cellspacing="0"></table></th>
+						<th><table class="subtable 5" cellspacing="0"></table></th>
+					</tr>
+					<tr>
+						<th><table class="subtable 6" cellspacing="0"></table></th>
+						<th><table class="subtable 7" cellspacing="0"></table></th>
+						<th><table class="subtable 8" cellspacing="0"></table></th>
+					</tr>
+				</table>
+			</div>
+			<h2>Moves</h2>
+			<table>
+				<tr class="moveContainer">
+
+				</tr>
+			</table>
+			<br>
+			<br />
+			<div class="tableContainer1">
+				<h2><u>Medium</u></h2>
+				<table id="outter" cellspacing="0">
+					<tr>
+						<th><table class="subtable1 0" cellspacing="0"></table></th>
+						<th><table class="subtable1 1" cellspacing="0"></table></th>
+						<th><table class="subtable1 2" cellspacing="0"></table></th>
+					</tr>
+					<tr>
+						<th><table class="subtable1 3" cellspacing="0"></table></th>
+						<th><table class="subtable1 4" cellspacing="0"></table></th>
+						<th><table class="subtable1 5" cellspacing="0"></table></th>
+					</tr>
+					<tr>
+						<th><table class="subtable1 6" cellspacing="0"></table></th>
+						<th><table class="subtable1 7" cellspacing="0"></table></th>
+						<th><table class="subtable1 8" cellspacing="0"></table></th>
+					</tr>
+				</table>
+			</div>
+			<h2>Moves</h2>
+			<table>
+				<tr class="moveContainer1">
+
+				</tr>
+			</table>
+			<br>
+			<br />
+			<div class="tableContainer2">
+				<h2><u>Hard</u></h2>
+				<table id="outter" cellspacing="0">
+					<tr>
+						<th><table class="subtable2 0" cellspacing="0"></table></th>
+						<th><table class="subtable2 1" cellspacing="0"></table></th>
+						<th><table class="subtable2 2" cellspacing="0"></table></th>
+					</tr>
+					<tr>
+						<th><table class="subtable2 3" cellspacing="0"></table></th>
+						<th><table class="subtable2 4" cellspacing="0"></table></th>
+						<th><table class="subtable2 5" cellspacing="0"></table></th>
+					</tr>
+					<tr>
+						<th><table class="subtable2 6" cellspacing="0"></table></th>
+						<th><table class="subtable2 7" cellspacing="0"></table></th>
+						<th><table class="subtable2 8" cellspacing="0"></table></th>
+					</tr>
+				</table>
+			</div>
+			<h2>Moves</h2>
+			<table>
+				<tr class="moveContainer2">
+
+				</tr>
+			</table>
+			<br>
+			<br />
+			<a href="index.php"><button type="button" class="btn btn-default btn-lg" id="surrenderButt">Return Home</button></a>
+		</div>
+	</body>
+	<script type="text/javascript" src="tests/nineByNineTest/easyNinesBot.js"></script>
+	<script type="text/javascript" src="tests/nineByNineTest/mediumNinesBot.js"></script>
+	<script type="text/javascript" src="tests/nineByNineTest/hardBot.js"></script>
+	<script type="text/javascript" src="tests/nineByNineTest/nineBotTest.js"></script>
+	<script type="text/javascript" src="tests/nineByNineTest/nineByNine.js"></script>
+	<script type="text/javascript" src="tests/nineByNineTest/9by9PageState.js"></script>
+</html>

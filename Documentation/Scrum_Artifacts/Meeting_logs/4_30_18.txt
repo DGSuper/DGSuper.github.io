@@ -1,0 +1,21 @@
+Date: 4/30/18
+Time: 3:00 p.m.
+Location: Jaybreak Cafe
+
+Previous meeting:
+- Refactor code for 3x3 (all difficulties) (completed)
+- Create view-ability for online mode games for users (for both 3x3 and 9x9) (still in progress)
+- Allow users to be able to continue their games on online mode (completed)
+- Fix inconsistent board sizing issue (completed)
+- Code buttons for twitter and Facebook APIs (completed, needs to be integrated)
+- Work on updating charts for use case, state, and class diagrams (in progress)
+- Figure out what tests we want to include in the test suite (in progress)
+
+
+For next meeting:
+- Finish updating charts
+- Automatic documentation generated
+- Finish test suite (including all tests that need to be written and display on tests being completed)
+- Finish updating user manual
+- Last minute bug fixes
+- Move Social media buttons to Nav bar

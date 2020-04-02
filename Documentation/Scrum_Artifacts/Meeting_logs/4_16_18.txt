@@ -1,0 +1,18 @@
+Date: 4/16/18
+Time: 3:00 p.m.
+Location: Lab in Eaton
+
+Previous meeting:
+- Divide up tasks (completed)
+- Begin thinking about what social media integration we want (which social media sites) (completed)
+- Figure out how we will refactor Javascript to have classes (completed)
+- Update product backlog for new features. (completed)
+- Start on design for how code will be refactored (in progress)
+
+For next meeting:
+- Figure out what pages we want Twitter/Facebook APIs on
+- Begin refactoring Javascript into classes (niner, three board, and bots- all difficulties)
+- Begin working on user manual
+- Fix bootstrap styling issue on dashboard
+- Begin working on online mode for 3x3 board
+- Fix stability issues on 9x9

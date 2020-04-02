@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ninerBoard</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/easyBot.html">easyBot</a></li>
+                                <li><a href="../classes/hardBot.html">hardBot</a></li>
+                                <li><a href="../classes/mediumBot.html">mediumBot</a></li>
+                                <li><a href="../classes/ninePageState.html">ninePageState</a></li>
+                                <li><a href="../classes/ninerBoard.html">ninerBoard</a></li>
+                                <li><a href="../classes/pageState.html">pageState</a></li>
+                                <li><a href="../classes/simpleBoard.html">simpleBoard</a></li>
+                            </ul>
+                
+                
+                            <ul id="api-modules" class="apis modules">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1>ninerBoard Class</h1>
+<div class="box meta">
+
+
+        <div class="foundat">
+            Defined in: <a href="../files/js_nineByNine.js.html#l1"><code>js&#x2F;nineByNine.js:1</code></a>
+        </div>
+
+
+</div>
+
+
+<div class="box intro">
+    <p>ninerBoard is the 9x9 tic tac toe object</p>
+
+</div>
+
+    <div class="constructor">
+        <h2>Constructor</h2>
+<div id="method_ninerBoard" class="method item">
+    <h3 class="name"><code>ninerBoard</code></h3>
+
+        <span class="paren">()</span>
+
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l1"><code>js&#x2F;nineByNine.js:1</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        
+    </div>
+
+
+
+
+</div>
+    </div>
+
+<div id="classdocs" class="tabview">
+    <ul class="api-class-tabs">
+        <li class="api-class-tab index"><a href="#index">Index</a></li>
+
+            <li class="api-class-tab methods"><a href="#methods">Methods</a></li>
+    </ul>
+
+    <div>
+        <div id="index" class="api-class-tabpanel index">
+            <h2 class="off-left">Item Index</h2>
+
+                <div class="index-section methods">
+                    <h3>Methods</h3>
+
+                    <ul class="index-list methods">
+                            <li class="index-item method">
+                                <a href="#method_checkBoardFull">checkBoardFull</a>
+
+                            </li>
+                            <li class="index-item method">
+                                <a href="#method_checkBoardStatus">checkBoardStatus</a>
+
+                            </li>
+                            <li class="index-item method">
+                                <a href="#method_checkEntireBoard">checkEntireBoard</a>
+
+                            </li>
+                            <li class="index-item method">
+                                <a href="#method_checkGameWin">checkGameWin</a>
+
+                            </li>
+                            <li class="index-item method">
+                                <a href="#method_checkSubBoardWin">checkSubBoardWin</a>
+
+                            </li>
+                            <li class="index-item method">
+                                <a href="#method_move">move</a>
+
+                            </li>
+                            <li class="index-item method">
+                                <a href="#method_specialCases">specialCases</a>
+
+                            </li>
+                            <li class="index-item method">
+                                <a href="#method_updateSubArrays">updateSubArrays</a>
+
+                            </li>
+                    </ul>
+                </div>
+
+
+
+        </div>
+
+            <div id="methods" class="api-class-tabpanel">
+                <h2 class="off-left">Methods</h2>
+
+<div id="method_checkBoardFull" class="method item">
+    <h3 class="name"><code>checkBoardFull</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>board</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l144"><code>js&#x2F;nineByNine.js:144</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Checks if there are no more moves left in the 9x9 board</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">board</code>
+                        <span class="type">Object</span>
+
+
+                    <div class="param-description">
+                        <p>object that has the properties of the board</p>
+
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                        <span class="type">Boolean</span>:
+                    <p>True if the board is full; false otherwise</p>
+
+            </div>
+        </div>
+
+
+</div>
+<div id="method_checkBoardStatus" class="method item">
+    <h3 class="name"><code>checkBoardStatus</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>tile</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type"></span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l46"><code>js&#x2F;nineByNine.js:46</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Checks the status of the 3x3 sub board.</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">tile</code>
+                        <span class="type">Number</span>
+
+
+                    <div class="param-description">
+                        <p>the number of the tile selected</p>
+
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                    <p>none</p>
+
+            </div>
+        </div>
+
+
+</div>
+<div id="method_checkEntireBoard" class="method item">
+    <h3 class="name"><code>checkEntireBoard</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>boards</code>
+                </li>
+                <li class="arg">
+                        <code>possWin</code>
+                </li>
+                <li class="arg">
+                        <code>XorO</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l182"><code>js&#x2F;nineByNine.js:182</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Checks if someone has won the game</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">boards</code>
+                        <span class="type">Array</span>
+
+
+                    <div class="param-description">
+                        <p>array of sub boards</p>
+
+                    </div>
+
+                </li>
+                <li class="param">
+                        <code class="param-name">possWin</code>
+                        <span class="type">Array</span>
+
+
+                    <div class="param-description">
+                        <p>array of possible wins</p>
+
+                    </div>
+
+                </li>
+                <li class="param">
+                        <code class="param-name">XorO</code>
+                        <span class="type">String</span>
+
+
+                    <div class="param-description">
+                        <p>string of the whose turn it is, X or O</p>
+
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                        <span class="type">Boolean</span>:
+                    <p>True if the board has been won; false otherwise</p>
+
+            </div>
+        </div>
+
+
+</div>
+<div id="method_checkGameWin" class="method item">
+    <h3 class="name"><code>checkGameWin</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>none</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l67"><code>js&#x2F;nineByNine.js:67</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Checking if a move wins the game</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">none</code>
+                        <span class="type">Object</span>
+
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                        <span class="type">Boolean</span>:
+                    <p>True if the game has been won, false otherwise</p>
+
+            </div>
+        </div>
+
+
+</div>
+<div id="method_checkSubBoardWin" class="method item">
+    <h3 class="name"><code>checkSubBoardWin</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>subBoardIndex</code>
+                </li>
+                <li class="arg">
+                        <code>tiles</code>
+                </li>
+                <li class="arg">
+                        <code>possWin</code>
+                </li>
+                <li class="arg">
+                        <code>XorO</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l162"><code>js&#x2F;nineByNine.js:162</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Checks if the 3x3 sub board has been won.</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">subBoardIndex</code>
+                        <span class="type">Number</span>
+
+
+                    <div class="param-description">
+                        <p>index of the specific sub board</p>
+
+                    </div>
+
+                </li>
+                <li class="param">
+                        <code class="param-name">tiles</code>
+                        <span class="type">Array</span>
+
+
+                    <div class="param-description">
+                        <p>all the tiles in the sub board</p>
+
+                    </div>
+
+                </li>
+                <li class="param">
+                        <code class="param-name">possWin</code>
+                        <span class="type">Array</span>
+
+
+                    <div class="param-description">
+                        <p>array of possible wins</p>
+
+                    </div>
+
+                </li>
+                <li class="param">
+                        <code class="param-name">XorO</code>
+                        <span class="type">String</span>
+
+
+                    <div class="param-description">
+                        <p>string of the whose turn it is, X or O</p>
+
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                        <span class="type">Boolean</span>:
+                    <p>True if the board has been won; false otherwise</p>
+
+            </div>
+        </div>
+
+
+</div>
+<div id="method_move" class="method item">
+    <h3 class="name"><code>move</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>i</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type"></span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l23"><code>js&#x2F;nineByNine.js:23</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Checks if the player's move is valid or not</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">i</code>
+                        <span class="type">String</span>
+
+
+                    <div class="param-description">
+                        <p>the player's move X or O</p>
+
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                    <p>none</p>
+
+            </div>
+        </div>
+
+
+</div>
+<div id="method_specialCases" class="method item">
+    <h3 class="name"><code>specialCases</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>none</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type">Boolean</span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l117"><code>js&#x2F;nineByNine.js:117</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>Checks for different methods for no more possible ways to win the game</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">none</code>
+                        <span class="type">Object</span>
+
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                        <span class="type">Boolean</span>:
+                    <p>True if there is a special case; false otherwise</p>
+
+            </div>
+        </div>
+
+
+</div>
+<div id="method_updateSubArrays" class="method item">
+    <h3 class="name"><code>updateSubArrays</code></h3>
+
+        <div class="args">
+            <span class="paren">(</span><ul class="args-list inline commas">
+                <li class="arg">
+                        <code>none</code>
+                </li>
+            </ul><span class="paren">)</span>
+        </div>
+
+        <span class="returns-inline">
+            <span class="type"></span>
+        </span>
+
+
+
+
+
+
+
+    <div class="meta">
+                <p>
+                Defined in
+        <a href="../files/js_nineByNine.js.html#l95"><code>js&#x2F;nineByNine.js:95</code></a>
+        </p>
+
+
+
+    </div>
+
+    <div class="description">
+        <p>updateSubArrays updates whichever sub table has been won by X or O.</p>
+
+    </div>
+
+        <div class="params">
+            <h4>Parameters:</h4>
+
+            <ul class="params-list">
+                <li class="param">
+                        <code class="param-name">none</code>
+                        <span class="type">Object</span>
+
+
+                    <div class="param-description">
+                         
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+        <div class="returns">
+            <h4>Returns:</h4>
+
+            <div class="returns-description">
+                    <p>none; updates the corresponding array depending on the outcome</p>
+
+            </div>
+        </div>
+
+
+</div>
+            </div>
+
+
+
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>
